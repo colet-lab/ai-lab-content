@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# 機密情報
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+service-account*.json
+google-credentials*.json
+
+# 一時ファイル
+*.log
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Node
+node_modules/
